@@ -147,6 +147,19 @@ struct TechEaseTutorialList: View {
                     .padding(.top, 20)
                     .padding(.bottom, 10)
                 
+                NavigationLink(
+                    destination: FeaturedTutorialsScreen(), tag: 1, selection: $action){
+                    EmptyView()
+                }
+                .isDetailLink(false)
+                
+                // Arica: Featured Tutorials button.
+                CustomButton(icon: "star", label: "Featured Tutorials")
+                    .onTapGesture {
+                        self.action = 1
+                    }
+                    .padding()
+                
                 List(tutorialList) { aTutorial in
                     viewTutorial(tutorialDisplay: aTutorial)
                         .padding()
