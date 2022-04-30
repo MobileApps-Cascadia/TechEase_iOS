@@ -17,6 +17,16 @@ Arica: This file stores the arrays for each tutorial in the Phone Features categ
 import Foundation
 
 let phoneFeaturesOverview = [
+    
+    // MARK: The Emergency Information tutorial.
+    
+    [
+        "Understanding the Medical ID.",
+        "Accessing the Medical ID from the Settings.",
+        "Adding to and editing the Medical ID's information.",
+        "Accessing the Medical ID from the lock screen."
+    ],
+    
     // MARK: The Contact List tutorial.
 
     [

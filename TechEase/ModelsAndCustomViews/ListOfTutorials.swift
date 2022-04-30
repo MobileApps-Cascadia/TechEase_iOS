@@ -22,6 +22,7 @@ let tutorialList = [
 // MARK: The list of tutorials under the Phone Features category.
 
 let phoneFeatureList = [
+    Tutorial(TutorialName: "Emergency Information", Icon: "cross.circle"),
     Tutorial(TutorialName: "Contact List", Icon: "person.crop.circle"),
     Tutorial(TutorialName: "Calling", Icon: "phone"),
     Tutorial(TutorialName: "Voicemail", Icon: "recordingtape"),
