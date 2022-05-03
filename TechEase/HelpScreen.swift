@@ -17,6 +17,15 @@ struct HelpScreen: View {
     @EnvironmentObject var appState: AppState
     @State var action: Int?
     
+    // Arica: I was wanting to see if I could change the Help screen's navigation bar to be a yellow color like our prototype has. Unfortunately, this code did not work. I am leaving it here, though, as it has the exact values of the light yellow color. I might come back later to revisit this design idea.
+    
+    /*
+    init() {
+        let lightYellowColor = UIColor(red: 1.00000, green: 0.98039, blue: 0.57647, alpha: 1.0000)
+        UINavigationBar.appearance().backgroundColor = lightYellowColor
+    }
+    */
+     
     var body: some View {
         
         /*
@@ -32,23 +41,7 @@ struct HelpScreen: View {
             VStack {
                 
                 /*
-
-                 Arica: This is the placeholder title text. This can be removed when we have a top navigation menu.
                  
-                 */
-                
-    //            Text("Help")
-    //               .font(.largeTitle)
-    //               .fontWeight(.regular)
-    //               .frame(maxWidth: /*@START_MENU_TOKEN@*/.infinity/*@END_MENU_TOKEN@*/)
-    //               .foregroundColor(Color("Black"))
-    //               .padding()
-    //               .border(Color("DarkYellow"), width: 2)
-    //               .background(Color("LightYellow"))
-    //               .padding()
-                
-                /*
-                
                 Arica: The ScrollView encompasses the text and the "Contact Us" button, but not the swipe up or down text.
                  
                 */
@@ -184,15 +177,22 @@ struct HelpScreen: View {
                 self.appState.moveToDashboard = true
             }) {
                 
-                Text_to_SpeechButton(speech: "T.T.S. to be applied here later i guess.")
+                Text_to_SpeechButton(speech: "The Help screen will help you with phone controls, navigating this app, and understanding the tutorials in this app. If you have questions or feedback about the app that you would like to send to the TechEase team, tap the Contact Us button at the bottom of the screen.")
                     .padding(.trailing, 7.0)
                 
                 
                 VStack {
                     Image(systemName: "house")
-                        .foregroundColor(Color("Black"))
+                        // Arica: This was the original code.
+                        // .foregroundColor(Color("Black"))
+                        // Arica: This is the new code to match the new light green top navigation menu.
+                        .foregroundColor(Color("NavigationMenuBlack"))
                     Text("Home")
-                        .foregroundColor(Color("Black"))
+                        // Arica: This was the original code.
+                        // .foregroundColor(Color("Black"))
+                        // Arica: This is the new code to match the new light green top navigation menu.
+                        .foregroundColor(Color("NavigationMenuBlack"))
+                        
                         // Arica: It seems you actually can customize the font size, but it loses that bold look that is automatically applied to links in the navigation bar.
                         //.font(.title3)
                 }

@@ -62,7 +62,7 @@ struct Accessibility: View {
                 ScrollView {
                     
                     Button(action: {
-                        speakButtonText(textToSpeak: "Text-to-Speech")
+                        //speakButtonText(textToSpeak: "Text-to-Speech")
                     }) {
                         HStack{
                             Image(systemName: "hearingaid.ear")
@@ -93,7 +93,7 @@ struct Accessibility: View {
                     CustomButton(icon: "eye", label: "Vision Options")
                     .onTapGesture {
                         self.action = 1
-                        speakButtonText(textToSpeak: "Vision Options")
+                        //speakButtonText(textToSpeak: "Vision Options")
                     }
                     .padding()
                     
@@ -124,7 +124,7 @@ struct Accessibility: View {
                     */
                     
                     Button(action: {
-                        speakButtonText(textToSpeak: "Voice Commands")
+                        //speakButtonText(textToSpeak: "Voice Commands")
                     }) {
                         HStack{
                             Image(systemName: "mic.fill")
@@ -154,9 +154,15 @@ struct Accessibility: View {
                         
                         VStack {
                             Image(systemName: "house")
-                                .foregroundColor(Color("Black"))
+                                // Arica: This was the original code.
+                                // .foregroundColor(Color("Black"))
+                                // Arica: This is the new code to match the new light green top navigation menu.
+                                .foregroundColor(Color("NavigationMenuBlack"))
                             Text("Home")
-                                .foregroundColor(Color("Black"))
+                                // Arica: This was the original code.
+                                // .foregroundColor(Color("Black"))
+                                // Arica: This is the new code to match the new light green top navigation menu.
+                                .foregroundColor(Color("NavigationMenuBlack"))
                         }
                     })
                     
