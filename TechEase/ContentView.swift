@@ -408,7 +408,7 @@ struct ContentView: View {
                             CustomButton(icon: "hand.raised", label: "Practice Tutorial")
                                 .onTapGesture {
                                     self.action = 2
-                                    speakButtonText(textToSpeak: "Practice Tutorial")
+                                    //speakButtonText(textToSpeak: "Practice Tutorial")
                                 }
                                 .padding()
                             
@@ -424,7 +424,7 @@ struct ContentView: View {
                             CustomButton(icon: "play.rectangle", label: "Video Tutorial")
                                 .onTapGesture {
                                     self.action = 1
-                                    speakButtonText(textToSpeak: "Video Tutorial")
+                                    //speakButtonText(textToSpeak: "Video Tutorial")
                                 }
                                 .padding()
                                 .padding(.bottom, 20)
@@ -478,20 +478,27 @@ struct ContentView: View {
                 .background(RoundedRectangle(cornerRadius: 0).stroke(Color("LightGray"), lineWidth: 4).background(Color("White")))
             }
         }
-        .navigationBarTitle("Settings", displayMode: .inline)
+        .navigationBarTitle("Compass Tutorial", displayMode: .inline)
         .navigationBarItems(trailing: Button(action: {
             self.appState.moveToDashboard = true
         }) {
-            
-            Text_to_SpeechButton(speech: "")
+            // Arica: I put some placeholder text here so that something is read when the "Listen" button is tapped on.
+            Text_to_SpeechButton(speech: "The Compass Tutorial will teach you how to open and use the Compass app. To watch a YouTube video about the Compass app, tap the Video Tutorial button at the bottom of the screen. To practice using the Compass app yourself, tap the Practice Tutorial button at the bottom of the screen.")
                 .padding(.trailing, 7.0)
             
             
             VStack {
                 Image(systemName: "house")
-                    .foregroundColor(Color("Black"))
+                    // Arica: This was the original code.
+                    // .foregroundColor(Color("Black"))
+                    // Arica: This is the new code to match the new light green top navigation menu.
+                    .foregroundColor(Color("NavigationMenuBlack"))
                 Text("Home")
-                    .foregroundColor(Color("Black"))
+                    // Arica: This was the original code.
+                    // .foregroundColor(Color("Black"))
+                    // Arica: This is the new code to match the new light green top navigation menu.
+                    .foregroundColor(Color("NavigationMenuBlack"))
+                
                     // Arica: It seems you actually can customize the font size, but it loses that bold look that is automatically applied to links in the navigation bar.
                     //.font(.title3)
             }

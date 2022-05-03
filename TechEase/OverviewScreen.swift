@@ -85,7 +85,7 @@ struct OverviewScreen: View {
                     CustomButton(icon: "play", label: "Start Tutorial")
                     .onTapGesture {
                         self.action = 1
-                        speakButtonText(textToSpeak: "Start Tutorial")
+                        //speakButtonText(textToSpeak: "Start Tutorial")
                     }
                     .padding()
                     Spacer()
@@ -151,9 +151,16 @@ struct OverviewScreen: View {
                     }) {
                         VStack {
                             Image(systemName: "house")
-                                .foregroundColor(Color("Black"))
+                                // Arica: This was the original code.
+                                // .foregroundColor(Color("Black"))
+                                // Arica: This is the new code to match the new light green top navigation menu.
+                                .foregroundColor(Color("NavigationMenuBlack"))
                             Text("Home")
-                                .foregroundColor(Color("Black"))
+                                // Arica: This was the original code.
+                                // .foregroundColor(Color("Black"))
+                                // Arica: This is the new code to match the new light green top navigation menu.
+                                .foregroundColor(Color("NavigationMenuBlack"))
+                            
                                 // Arica: It seems you actually can customize the font size, but it loses that bold look that is automatically applied to links in the navigation bar.
                                 //.font(.title3)
                         }

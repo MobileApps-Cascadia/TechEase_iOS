@@ -81,9 +81,15 @@ struct VisionOptions: View {
                     
                     VStack {
                         Image(systemName: "house")
-                            .foregroundColor(Color("Black"))
+                            // Arica: This was the original code.
+                            // .foregroundColor(Color("Black"))
+                            // Arica: This is the new code to match the new light green top navigation menu.
+                            .foregroundColor(Color("NavigationMenuBlack"))
                         Text("Home")
-                            .foregroundColor(Color("Black"))
+                            // Arica: This was the original code.
+                            // .foregroundColor(Color("Black"))
+                            // Arica: This is the new code to match the new light green top navigation menu.
+                            .foregroundColor(Color("NavigationMenuBlack"))
                     }
                 })
                 

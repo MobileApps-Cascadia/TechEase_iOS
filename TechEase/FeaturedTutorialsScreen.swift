@@ -30,46 +30,50 @@ struct FeaturedTutorialsScreen: View {
                     .padding(.top, 20)
                     .padding(.bottom, 10)
                 
-                NavigationLink(
-                    destination: TheEmergencyInformationTutorial(), tag: 1, selection: $action){
-                    EmptyView()
-                }
-                .isDetailLink(false)
-                
-                NavigationLink(
-                    destination: TheCompassTutorial(), tag: 2, selection: $action){
-                    EmptyView()
-                }
-                .isDetailLink(false)
-                
-                NavigationLink(
-                    destination: TheCalendarTutorial(), tag: 3, selection: $action){
-                    EmptyView()
-                }
-                .isDetailLink(false)
-                
-                // Arica: Emergency Information tutorial button.
-                CustomButton(icon: "cross.circle", label: "Emergency Information")
-                    .onTapGesture {
-                        self.action = 1
+                // Arica: I added a ScrollView on this screen, because there are three buttons that the user can tap. On smaller screens, the buttons could be cut off if a ScrollView is not used.
+                ScrollView {
+                    
+                    NavigationLink(
+                        destination: TheEmergencyInformationTutorial(), tag: 1, selection: $action){
+                        EmptyView()
                     }
-                    .padding()
-                
-                // Arica: Compass tutorial button.
-                CustomButton(icon: "location.north.line", label: "Compass")
-                    .onTapGesture {
-                        self.action = 2
+                    .isDetailLink(false)
+                    
+                    NavigationLink(
+                        destination: TheCompassTutorial(), tag: 2, selection: $action){
+                        EmptyView()
                     }
-                    .padding()
-                
-                // Arica: Calendar tutorial button.
-                // I am getting this warning in the console log, so I should probably check this out in the future.
-                // "SwiftUI encountered an issue when pushing aNavigationLink. Please file a bug."
-                CustomButton(icon: "calendar", label: "Calendar")
-                    .onTapGesture {
-                        self.action = 3
+                    .isDetailLink(false)
+                    
+                    NavigationLink(
+                        destination: TheCalendarTutorial(), tag: 3, selection: $action){
+                        EmptyView()
                     }
-                    .padding()
+                    .isDetailLink(false)
+                    
+                    // Arica: Emergency Information tutorial button.
+                    CustomButton(icon: "cross.circle", label: "Emergency Information")
+                        .onTapGesture {
+                            self.action = 1
+                        }
+                        .padding()
+                    
+                    // Arica: Compass tutorial button.
+                    CustomButton(icon: "location.north.line", label: "Compass")
+                        .onTapGesture {
+                            self.action = 2
+                        }
+                        .padding()
+                    
+                    // Arica: Calendar tutorial button.
+                    // I am getting this warning in the console log, so I should probably check this out in the future.
+                    // "SwiftUI encountered an issue when pushing aNavigationLink. Please file a bug."
+                    CustomButton(icon: "calendar", label: "Calendar")
+                        .onTapGesture {
+                            self.action = 3
+                        }
+                        .padding()
+                }
                 
                 Spacer()
                 
@@ -94,7 +98,7 @@ struct FeaturedTutorialsScreen: View {
                                 .foregroundColor(Color("Black"))
                                 .multilineTextAlignment(.leading)
                             
-                            NavigationLink(destination: HelpScreen(), tag: 3, selection: $action) {  EmptyView()
+                            NavigationLink(destination: HelpScreen(), tag: 4, selection: $action) {  EmptyView()
                             }
                             .isDetailLink(false)
                         }
@@ -102,7 +106,7 @@ struct FeaturedTutorialsScreen: View {
                         
                         Spacer()
                         
-                        Button(action: {self.action = 3}, label: {
+                        Button(action: {self.action = 4}, label: {
                             
                             VStack {
                                 Image(systemName: "questionmark")
@@ -131,9 +135,15 @@ struct FeaturedTutorialsScreen: View {
                 
                 VStack {
                     Image(systemName: "house")
-                        .foregroundColor(Color("Black"))
+                        // Arica: This was the original code.
+                        // .foregroundColor(Color("Black"))
+                        // Arica: This is the new code to match the new light green top navigation menu.
+                        .foregroundColor(Color("NavigationMenuBlack"))
                     Text("Home")
-                        .foregroundColor(Color("Black"))
+                        // Arica: This was the original code.
+                        // .foregroundColor(Color("Black"))
+                        // Arica: This is the new code to match the new light green top navigation menu.
+                        .foregroundColor(Color("NavigationMenuBlack"))
                 }
             }
             .padding(.trailing, 3.0))

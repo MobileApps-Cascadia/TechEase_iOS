@@ -39,11 +39,16 @@ struct Text_to_SpeechButton: View {
             synthesizer.speak(utterance)
             
         }) {
-            VStack{
-                Image(systemName: "mic.circle")
-                    .foregroundColor(Color("Black"))
-                Text("Speak")
-                    .foregroundColor(Color("Black"))
+            VStack {
+                
+                // Arica: Important note! You can use the icons "speaker.1" or "speaker.2," but "speaker.3" cuts off the text for some reason. The text shows up with a "..." at the end of it. I have not been able to figure out how to fix this, so I left the icon as "speaker.2" to make sure the text is not cut off.
+                
+                // Arica: The original color for the image and text was Color("Black"). However, with the new green top navigation menu bar design, the image and text needs to be black in both light and dark mode. That is why the color has been changed to Color("NavigationMenuBlack").
+                
+                Image(systemName: "speaker.2")
+                    .foregroundColor(Color("NavigationMenuBlack"))
+                Text("Listen")
+                    .foregroundColor(Color("NavigationMenuBlack"))
             }
         }
     }

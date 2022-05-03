@@ -11,6 +11,8 @@
 //  Modified by Arica Conrad on 10/17/21.
 //
 
+// Arica: Important note! All buttons across the app originally had text-to-speech applied to them, so the text on the button was read whenever a button was tapped. I commented out the code, because the functionality did not seem as useful and the user had no choice in it. I did not delete the code, though, just in case the code actually needs to be used later.
+
 import SwiftUI
 import AVFoundation
 
@@ -28,7 +30,41 @@ struct Homepage: View {
     @State var isView1Active: Bool = false
     
     init() {
-        UINavigationBar.appearance().backgroundColor = UIColor.green
+        
+        // Arica: Create a new UIColor to match our app's light green color in our prototype.
+        
+        let lightGreenColor = UIColor(red: 0.69412, green: 1.00000, blue: 0.61176, alpha: 1.0000)
+        
+        // Arica: Create a new version of the navigation bar that has a light green background, black text, and stretches all the way to the top.
+        
+        let appearence = UINavigationBarAppearance()
+        appearence.configureWithOpaqueBackground()
+        appearence.backgroundColor = lightGreenColor
+        appearence.titleTextAttributes = [.foregroundColor: UIColor.black]
+        appearence.largeTitleTextAttributes = [.foregroundColor: UIColor.black]
+            
+        UINavigationBar.appearance().standardAppearance = appearence
+        UINavigationBar.appearance().scrollEdgeAppearance = appearence
+        UINavigationBar.appearance().compactAppearance = appearence
+        
+        // Arica: This code is probably not needed, but I thought I would leave it here anyway.
+        // UINavigationBar.appearance().tintColor = UIColor.white
+        
+        // Arica: The code below works to change the background color of the navigation menu to the desired light green color, but the background does not stretch all the way to the top like the code above does. I thought I would leave this code commented out just in case I need it later.
+        
+        /*
+        
+         let lightGreenColor = UIColor(red: 0.69412, green: 1.00000, blue: 0.61176, alpha: 1.0000)
+         UINavigationBar.appearance().backgroundColor = lightGreenColor
+         
+         let navBarAppearance = UINavigationBar.appearance()
+         navBarAppearance.largeTitleTextAttributes = [.foregroundColor: UIColor.black]
+         navBarAppearance.titleTextAttributes = [.foregroundColor: UIColor.black]
+         
+        */
+        
+        // Arica: This was the original code.
+        // UINavigationBar.appearance().backgroundColor = UIColor.green
     }
     
     var body: some View {
@@ -109,15 +145,14 @@ struct Homepage: View {
                     CustomButton(icon: "book", label: "Start Tutorials")
                         .onTapGesture {
                             self.action = 1
-                            speakButtonText(textToSpeak: "Start Tutorials")
+                            //speakButtonText(textToSpeak: "Start Tutorials")
                         }
                         .padding()
                     
                     CustomButton(icon: "gearshape", label: "Settings")
                         .onTapGesture {
-                            
                             self.action = 2
-                            speakButtonText(textToSpeak: "Settings")
+                            //speakButtonText(textToSpeak: "Settings")
                         }
                         .padding()
                     
@@ -169,7 +204,7 @@ struct Homepage: View {
                 }
                 .navigationBarItems(trailing: Text_to_SpeechButton(speech: "Welcome! Tap a button to access the tutorials or the settings. If you need help, tap the help button in the bottom right corner."))
                 .listStyle(PlainListStyle())
-                .navigationBarTitle("TechEase", displayMode: .inline)
+                .navigationBarTitle("Home", displayMode: .inline)
                 .onReceive(self.appState.$moveToDashboard) { moveToDashboard in
                     if moveToDashboard {
                         print("Move to dashboard: \(moveToDashboard)")
@@ -187,7 +222,10 @@ struct Homepage: View {
         Arica: This changes the color of the back button in the navigation menu. Putting this code here affects all the screens.
          
         */
-        .accentColor(Color("Black"))
+        // Arica: This was the original code:
+        // .accentColor(Color("Black"))
+        // Arica: This is the new code. Since the navigation menu currently does not transition in dark mode, the text needs to stay black in both light and dark mode. This "NavigationMenuBlack" color is black in both light and dark mode and will affect all the screens in the app.
+        .accentColor(Color("NavigationMenuBlack"))
     }
 }
 
