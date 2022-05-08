@@ -15,6 +15,22 @@
 		3F0F5B04262BC97B00446AD2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0F5B03262BC97B00446AD2 /* ContentView.swift */; };
 		3F0F5B06262BC97C00446AD2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F0F5B05262BC97C00446AD2 /* Assets.xcassets */; };
 		3F0F5B09262BC97C00446AD2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F0F5B08262BC97C00446AD2 /* Preview Assets.xcassets */; };
+		3F40159E28238C9500BBA062 /* CustomTutorialPartButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F40159D28238C9500BBA062 /* CustomTutorialPartButton.swift */; };
+		3F4015A1282396B000BBA062 /* EmergencyTutorialPart1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F4015A0282396B000BBA062 /* EmergencyTutorialPart1.swift */; };
+		3F4015A3282396D200BBA062 /* EmergencyTutorialPart2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F4015A2282396D200BBA062 /* EmergencyTutorialPart2.swift */; };
+		3F4015A5282396F800BBA062 /* EmergencyTutorialPart3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F4015A4282396F800BBA062 /* EmergencyTutorialPart3.swift */; };
+		3F4015A72823971500BBA062 /* EmergencyTutorialPart4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F4015A62823971500BBA062 /* EmergencyTutorialPart4.swift */; };
+		3F6CE53B28286194006E7F9D /* CalendarTutorialPart3.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3F6CE53728286194006E7F9D /* CalendarTutorialPart3.txt */; };
+		3F6CE53C28286194006E7F9D /* CalendarTutorialPart4.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3F6CE53828286194006E7F9D /* CalendarTutorialPart4.txt */; };
+		3F6CE53D28286194006E7F9D /* CalendarTutorialPart2.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3F6CE53928286194006E7F9D /* CalendarTutorialPart2.txt */; };
+		3F6CE53E28286194006E7F9D /* CalendarTutorialPart1.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3F6CE53A28286194006E7F9D /* CalendarTutorialPart1.txt */; };
+		3F6CE542282861B4006E7F9D /* CompassTutorialPart1.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3F6CE53F282861B4006E7F9D /* CompassTutorialPart1.txt */; };
+		3F6CE543282861B4006E7F9D /* CompassTutorialPart3.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3F6CE540282861B4006E7F9D /* CompassTutorialPart3.txt */; };
+		3F6CE544282861B4006E7F9D /* CompassTutorialPart2.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3F6CE541282861B4006E7F9D /* CompassTutorialPart2.txt */; };
+		3F6CE549282861C9006E7F9D /* EmergencyInformationTutorialPart1.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3F6CE545282861C8006E7F9D /* EmergencyInformationTutorialPart1.txt */; };
+		3F6CE54A282861C9006E7F9D /* EmergencyInformationTutorialPart3.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3F6CE546282861C8006E7F9D /* EmergencyInformationTutorialPart3.txt */; };
+		3F6CE54B282861C9006E7F9D /* EmergencyInformationTutorialPart2.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3F6CE547282861C8006E7F9D /* EmergencyInformationTutorialPart2.txt */; };
+		3F6CE54C282861C9006E7F9D /* EmergencyInformationTutorialPart4.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3F6CE548282861C8006E7F9D /* EmergencyInformationTutorialPart4.txt */; };
 		3F6D5ECD2630C14600B6C7BB /* HelpScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6D5ECC2630C14600B6C7BB /* HelpScreen.swift */; };
 		3F7F080E2714B59B00B192DE /* TPTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7F080D2714B59B00B192DE /* TPTest.swift */; };
 		3FAB3AE426554C1000E207CA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FAB3AE326554C1000E207CA /* SceneDelegate.swift */; };
@@ -54,6 +70,22 @@
 		3F0F5B05262BC97C00446AD2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3F0F5B08262BC97C00446AD2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3F0F5B0A262BC97C00446AD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F40159D28238C9500BBA062 /* CustomTutorialPartButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTutorialPartButton.swift; sourceTree = "<group>"; };
+		3F4015A0282396B000BBA062 /* EmergencyTutorialPart1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmergencyTutorialPart1.swift; sourceTree = "<group>"; };
+		3F4015A2282396D200BBA062 /* EmergencyTutorialPart2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmergencyTutorialPart2.swift; sourceTree = "<group>"; };
+		3F4015A4282396F800BBA062 /* EmergencyTutorialPart3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmergencyTutorialPart3.swift; sourceTree = "<group>"; };
+		3F4015A62823971500BBA062 /* EmergencyTutorialPart4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmergencyTutorialPart4.swift; sourceTree = "<group>"; };
+		3F6CE53728286194006E7F9D /* CalendarTutorialPart3.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = CalendarTutorialPart3.txt; path = "../../../../Written Tutorials/Calendar Tutorial/Text Files/CalendarTutorialPart3.txt"; sourceTree = "<group>"; };
+		3F6CE53828286194006E7F9D /* CalendarTutorialPart4.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = CalendarTutorialPart4.txt; path = "../../../../Written Tutorials/Calendar Tutorial/Text Files/CalendarTutorialPart4.txt"; sourceTree = "<group>"; };
+		3F6CE53928286194006E7F9D /* CalendarTutorialPart2.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = CalendarTutorialPart2.txt; path = "../../../../Written Tutorials/Calendar Tutorial/Text Files/CalendarTutorialPart2.txt"; sourceTree = "<group>"; };
+		3F6CE53A28286194006E7F9D /* CalendarTutorialPart1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = CalendarTutorialPart1.txt; path = "../../../../Written Tutorials/Calendar Tutorial/Text Files/CalendarTutorialPart1.txt"; sourceTree = "<group>"; };
+		3F6CE53F282861B4006E7F9D /* CompassTutorialPart1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = CompassTutorialPart1.txt; path = "../../../../Written Tutorials/Compass Tutorial/Text Files/CompassTutorialPart1.txt"; sourceTree = "<group>"; };
+		3F6CE540282861B4006E7F9D /* CompassTutorialPart3.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = CompassTutorialPart3.txt; path = "../../../../Written Tutorials/Compass Tutorial/Text Files/CompassTutorialPart3.txt"; sourceTree = "<group>"; };
+		3F6CE541282861B4006E7F9D /* CompassTutorialPart2.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = CompassTutorialPart2.txt; path = "../../../../Written Tutorials/Compass Tutorial/Text Files/CompassTutorialPart2.txt"; sourceTree = "<group>"; };
+		3F6CE545282861C8006E7F9D /* EmergencyInformationTutorialPart1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = EmergencyInformationTutorialPart1.txt; path = "../../../../Written Tutorials/Emergency Information Tutorial/Text Files/EmergencyInformationTutorialPart1.txt"; sourceTree = "<group>"; };
+		3F6CE546282861C8006E7F9D /* EmergencyInformationTutorialPart3.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = EmergencyInformationTutorialPart3.txt; path = "../../../../Written Tutorials/Emergency Information Tutorial/Text Files/EmergencyInformationTutorialPart3.txt"; sourceTree = "<group>"; };
+		3F6CE547282861C8006E7F9D /* EmergencyInformationTutorialPart2.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = EmergencyInformationTutorialPart2.txt; path = "../../../../Written Tutorials/Emergency Information Tutorial/Text Files/EmergencyInformationTutorialPart2.txt"; sourceTree = "<group>"; };
+		3F6CE548282861C8006E7F9D /* EmergencyInformationTutorialPart4.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = EmergencyInformationTutorialPart4.txt; path = "../../../../Written Tutorials/Emergency Information Tutorial/Text Files/EmergencyInformationTutorialPart4.txt"; sourceTree = "<group>"; };
 		3F6D5ECC2630C14600B6C7BB /* HelpScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpScreen.swift; sourceTree = "<group>"; };
 		3F7F080D2714B59B00B192DE /* TPTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TPTest.swift; sourceTree = "<group>"; };
 		3FAB3AE326554C1000E207CA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -125,6 +157,7 @@
 		3F0F5B00262BC97B00446AD2 /* TechEase */ = {
 			isa = PBXGroup;
 			children = (
+				3F6CE533282860FD006E7F9D /* Written Tutorials */,
 				3FD1FC4F281CEE7B0022DCD3 /* Tutorials */,
 				3F029DAF265E018D009BA7CC /* Tutorial Overview Content */,
 				5FB46C38263D98A8008B809D /* ModelsAndCustomViews */,
@@ -158,9 +191,63 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		3F40159F2823968700BBA062 /* Emergency Tutorial Parts */ = {
+			isa = PBXGroup;
+			children = (
+				3F4015A0282396B000BBA062 /* EmergencyTutorialPart1.swift */,
+				3F4015A2282396D200BBA062 /* EmergencyTutorialPart2.swift */,
+				3F4015A4282396F800BBA062 /* EmergencyTutorialPart3.swift */,
+				3F4015A62823971500BBA062 /* EmergencyTutorialPart4.swift */,
+			);
+			path = "Emergency Tutorial Parts";
+			sourceTree = "<group>";
+		};
+		3F6CE533282860FD006E7F9D /* Written Tutorials */ = {
+			isa = PBXGroup;
+			children = (
+				3F6CE53428286114006E7F9D /* Calendar Tutorial */,
+				3F6CE5352828611E006E7F9D /* Compass Tutorial */,
+				3F6CE5362828612A006E7F9D /* Emergency Information Tutorial */,
+			);
+			path = "Written Tutorials";
+			sourceTree = "<group>";
+		};
+		3F6CE53428286114006E7F9D /* Calendar Tutorial */ = {
+			isa = PBXGroup;
+			children = (
+				3F6CE53A28286194006E7F9D /* CalendarTutorialPart1.txt */,
+				3F6CE53928286194006E7F9D /* CalendarTutorialPart2.txt */,
+				3F6CE53728286194006E7F9D /* CalendarTutorialPart3.txt */,
+				3F6CE53828286194006E7F9D /* CalendarTutorialPart4.txt */,
+			);
+			path = "Calendar Tutorial";
+			sourceTree = "<group>";
+		};
+		3F6CE5352828611E006E7F9D /* Compass Tutorial */ = {
+			isa = PBXGroup;
+			children = (
+				3F6CE53F282861B4006E7F9D /* CompassTutorialPart1.txt */,
+				3F6CE541282861B4006E7F9D /* CompassTutorialPart2.txt */,
+				3F6CE540282861B4006E7F9D /* CompassTutorialPart3.txt */,
+			);
+			path = "Compass Tutorial";
+			sourceTree = "<group>";
+		};
+		3F6CE5362828612A006E7F9D /* Emergency Information Tutorial */ = {
+			isa = PBXGroup;
+			children = (
+				3F6CE545282861C8006E7F9D /* EmergencyInformationTutorialPart1.txt */,
+				3F6CE547282861C8006E7F9D /* EmergencyInformationTutorialPart2.txt */,
+				3F6CE546282861C8006E7F9D /* EmergencyInformationTutorialPart3.txt */,
+				3F6CE548282861C8006E7F9D /* EmergencyInformationTutorialPart4.txt */,
+			);
+			path = "Emergency Information Tutorial";
+			sourceTree = "<group>";
+		};
 		3FD1FC4F281CEE7B0022DCD3 /* Tutorials */ = {
 			isa = PBXGroup;
 			children = (
+				3F40159F2823968700BBA062 /* Emergency Tutorial Parts */,
 				3FD1FC50281CEE960022DCD3 /* TheCompassTutorial.swift */,
 				3FD1FC52281CEEB90022DCD3 /* TheCalendarTutorial.swift */,
 				3FD1FC54281CEED70022DCD3 /* TheEmergencyInformationTutorial.swift */,
@@ -179,6 +266,7 @@
 				5F51B5942659BF23001C97F9 /* Text_to_SpeechButton.swift */,
 				5F51B596265C0832001C97F9 /* SpeechButton.swift */,
 				5F0177512714ECFA0006F0B5 /* VideoView.swift */,
+				3F40159D28238C9500BBA062 /* CustomTutorialPartButton.swift */,
 			);
 			path = ModelsAndCustomViews;
 			sourceTree = "<group>";
@@ -240,9 +328,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F6CE543282861B4006E7F9D /* CompassTutorialPart3.txt in Resources */,
+				3F6CE54C282861C9006E7F9D /* EmergencyInformationTutorialPart4.txt in Resources */,
 				3F0F5B09262BC97C00446AD2 /* Preview Assets.xcassets in Resources */,
+				3F6CE53B28286194006E7F9D /* CalendarTutorialPart3.txt in Resources */,
 				3F0F5B06262BC97C00446AD2 /* Assets.xcassets in Resources */,
+				3F6CE549282861C9006E7F9D /* EmergencyInformationTutorialPart1.txt in Resources */,
 				3FAB3AF2266C232D00E207CA /* The Compass Tutorial.txt in Resources */,
+				3F6CE53D28286194006E7F9D /* CalendarTutorialPart2.txt in Resources */,
+				3F6CE54A282861C9006E7F9D /* EmergencyInformationTutorialPart3.txt in Resources */,
+				3F6CE542282861B4006E7F9D /* CompassTutorialPart1.txt in Resources */,
+				3F6CE54B282861C9006E7F9D /* EmergencyInformationTutorialPart2.txt in Resources */,
+				3F6CE53E28286194006E7F9D /* CalendarTutorialPart1.txt in Resources */,
+				3F6CE53C28286194006E7F9D /* CalendarTutorialPart4.txt in Resources */,
+				3F6CE544282861B4006E7F9D /* CompassTutorialPart2.txt in Resources */,
 				3FAB3AEE266C161800E207CA /* Test2.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -254,6 +353,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F4015A3282396D200BBA062 /* EmergencyTutorialPart2.swift in Sources */,
 				3FEF5180263CD94E00237755 /* NotificationsScreen.swift in Sources */,
 				3FEBDF45265076CD006C9F4C /* HelpButton.swift in Sources */,
 				5FFDE810262FABCB00ADEEDF /* SettingsScreen.swift in Sources */,
@@ -271,6 +371,9 @@
 				3FD1FC55281CEED70022DCD3 /* TheEmergencyInformationTutorial.swift in Sources */,
 				3F029DB1265E01BF009BA7CC /* PhoneFeaturesTutorialsContent.swift in Sources */,
 				5FB46C40263D9A8D008B809D /* RoundedButton.swift in Sources */,
+				3F40159E28238C9500BBA062 /* CustomTutorialPartButton.swift in Sources */,
+				3F4015A1282396B000BBA062 /* EmergencyTutorialPart1.swift in Sources */,
+				3F4015A5282396F800BBA062 /* EmergencyTutorialPart3.swift in Sources */,
 				5F51B5952659BF23001C97F9 /* Text_to_SpeechButton.swift in Sources */,
 				5FA4B4A0264DCC2800C357C3 /* OverviewScreen.swift in Sources */,
 				3F029DB7265E03B6009BA7CC /* SocialMediaTutorialsContent.swift in Sources */,
@@ -284,6 +387,7 @@
 				5FB46C35263CBF39008B809D /* Homepage.swift in Sources */,
 				3FAB5FB5271D117E006B0C71 /* VisionOptions.swift in Sources */,
 				5F51B597265C0832001C97F9 /* SpeechButton.swift in Sources */,
+				3F4015A72823971500BBA062 /* EmergencyTutorialPart4.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
