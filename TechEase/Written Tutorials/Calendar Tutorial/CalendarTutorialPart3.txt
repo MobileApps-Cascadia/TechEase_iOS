@@ -1,0 +1,10 @@
+The Calendar Tutorial
+Part 3: Editing an event
+To edit an event, tap the event on the daily list view you want to edit. 
+First tap the event you want to edit.
+You will be directed to a screen that displays the event’s details. Then tap the “Edit” button in the top right corner of the screen.
+You will be shown the same fields as when you added a new event. Tap the options you want to edit. See the previous tutorial, “Part 2: Adding a new event,” to review some of the options you can edit. In the following screenshot, the user changed the day of the book sale from May 4 to May 5.
+Given the same options for editing an event, the user changed the date from May 4 to May 5. 
+Once finished, tap the “Done” button in the top right corner to save your edited event. Note that repeating events will ask if you want to save your changes for this event only or save for future events. Select the option that best fits with your changes. If you want to discard all your edited changes, tap the “Cancel” button in the top left corner. 
+Once you saved your edits, you will be redirected back to the event detail screen and should see the new changes to your event. To return to the daily list view of events, tap the button that shows the date with a “<” in the top left corner of the screen.
+You have reached the end of Part 3 of the Calendar Tutorial.

@@ -1,0 +1,18 @@
+The Emergency Information Tutorial
+Part 3: Adding to and editing your Medical ID information
+To add to or edit the Medical ID’s information, tap the “Edit” button at the top right corner. You should now see each field that you can add or change to fit your preference. You will need to scroll to see all the possible options.
+Tap the “Edit” button at the top right corner to edit your Medical ID’s information.
+In the “Information” section, you can add your photo, your primary language, and any preferred medical information, such as blood type, medical conditions, and medications.
+To add or edit a text field like “Medical Conditions” or “Medications,” tap the option’s blue text. Your phone’s keyboard should then pop up and you will be able to type your information in the field.
+To add to or edit the Medical ID’s text information, tap the options’ blue text.
+To add or edit non-text fields like “Blood Type” or “Weight,” tap the option’s “+” button. If you have not added information for these options, the “+” button will be green. If you have already added information for these options, the “+” button will be red. 
+To add information to the field, tap the green “+” button and a scroll field of predefined options will appear to you. Tap the option you want for this field. To remove your input for this field, simply tap the red “+” button and then a red “Delete” button will appear on the right side of the screen. Tap the “Delete” button to confirm your deletion. Now the “+” button should turn green again.
+The next section is the “Emergency Contacts” section, where you can add people from your Contacts List to be your preferred contacts in the case of an emergency. You can specify your relationship with each emergency contact as well.
+The “Emergency Contacts” section also has the “+” buttons as described above, but the process has a few more steps. When you tap the “+” button, your Contacts list will pop up. Tap a person you want to add as an emergency contact and select their relationship to you. This person will then be added as an emergency contact.
+Finally, in the “Emergency Access” section, there are two important toggle options that you can turn on or off. An option that is turned on will have a green toggle, while an option that is turned off will have a gray toggle.
+The first toggle option is to allow your Medical ID to be viewed when your phone is locked. This option must be turned on to green if you want emergency responders to be able to view your medical information without you needing to log in to your phone. Please note that anyone who views your Medical ID through the lock screen will not be able to edit your information. Only someone who is logged in to the phone, such as yourself, can change the information. 
+The second toggle option is to share your Medical ID if you call emergency services, such as 911. If you would rather not have your Medical ID shared, turn this option off to gray. 
+To edit the Medical ID’s “Emergency Access” information, tap the toggle buttons to turn them on or off.
+The very last option is to delete your Medical ID. Please be sure that you want to delete your Medical ID before tapping this button. If you tap this button, your Medical ID will be deleted and you will be shown the screen from the previous tutorial, “Part 2: Initializing the Medical ID in the Settings,” to create a new Medical ID.
+Once you are satisfied with your changes, tap the “Done” button at the top right corner. If you want to back out without saving your changes, tap the “Cancel” button at the top left corner.
+You have reached the end of Part 3 of the Emergency Information Tutorial.

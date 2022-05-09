@@ -1,0 +1,5 @@
+The Emergency Information Tutorial
+Part 1: Understanding the Medical ID
+Apple created Medical ID as a way for emergency responders to know information about a person using the person’s smartphone. This is particularly helpful if the person is unable to communicate. Medical ID can display your name, your primary language, your chosen emergency contacts, and information regarding your physical health, such as medical conditions, medications, and blood type.
+Having your Medical ID set up can provide some peace of mind for you and your loved ones in the event of a medical emergency.
+You have reached the end of Part 1 of the Emergency Information Tutorial.

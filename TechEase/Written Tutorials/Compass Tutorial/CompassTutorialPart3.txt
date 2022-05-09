@@ -1,0 +1,8 @@
+The Compass Tutorial
+Part 3: Locating your current position on a map
+To locate your current position on a map, tap the latitude and longitude coordinates near the bottom of the Compass screen. 
+First tap the latitude and longitude coordinates to display your current location on a map.
+Your Maps app should then open, displaying your current location on a map. Since you are now in a different app, you will have to switch apps if you want to go back to the Compass app. 
+Tapping the latitude and longitude coordinates in the Compass app brings up your current location in the Maps app.
+For more information about the Maps app, please see the Maps Tutorial.
+You have reached the end of Part 3 of the Compass Tutorial.

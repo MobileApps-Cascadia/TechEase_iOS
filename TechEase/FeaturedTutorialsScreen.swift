@@ -66,8 +66,6 @@ struct FeaturedTutorialsScreen: View {
                         .padding()
                     
                     // Arica: Calendar tutorial button.
-                    // I am getting this warning in the console log, so I should probably check this out in the future.
-                    // "SwiftUI encountered an issue when pushing aNavigationLink. Please file a bug."
                     CustomButton(icon: "calendar", label: "Calendar")
                         .onTapGesture {
                             self.action = 3

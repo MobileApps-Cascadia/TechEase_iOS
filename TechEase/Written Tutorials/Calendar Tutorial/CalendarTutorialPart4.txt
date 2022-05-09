@@ -1,0 +1,9 @@
+The Calendar Tutorial
+Part 4: Deleting an event
+There are two ways to delete an event in the daily list view. Tapping the event will bring up a screen that shows the event’s information. At the bottom of the screen is a “Delete Event” button. Tap the button and you will be asked if you are sure you want to delete the event. 
+Tap the “Delete Event” button on the event detail screen.
+Tap the “Delete Event” button to confirm your deletion or tap the “Cancel” button to return to the event detail screen.
+The other way to delete an event in the daily list view is to tap and hold the event’s name. The event will be focused against a blurry background and have a “Delete Event” button below the details of the event. Tap the “Delete Event” button to delete your event. If you do not want to delete the event, tap anywhere on the blurry background and the event popup will disappear without deleting the event.
+Tap the “Delete Event” button to delete the event. Otherwise, tap the background to cancel.
+Note that if you have an event that is repeating, you will be asked if you want to delete the selected event only or delete all future repeating events. Make sure to choose your desired option carefully.
+You have reached the end of Part 4 of the Calendar Tutorial.

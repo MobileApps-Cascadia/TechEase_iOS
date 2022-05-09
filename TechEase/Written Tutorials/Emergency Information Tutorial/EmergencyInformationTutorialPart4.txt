@@ -1,0 +1,10 @@
+The Emergency Information Tutorial
+Part 4: Accessing the Medical ID from the lock screen
+If you turned on the toggle option to allow your Medical ID to be viewed when your phone is locked, you should now be able to view your Medical ID from your phone’s lock screen.
+First turn your phone off and then back on again. On the passcode screen, you should see an “Emergency” button in the lower left corner. Now tap this button.
+To view your Medical ID, first tap the “Emergency” button in the lower left corner of your phone’s lock screen.
+You should now see a screen with a phone dialer. This allows for easy access to call emergency services like 911 without logging in to your phone. In the lower left corner of this screen should be a button that says “Medical ID.” Tap this button to be navigated to your Medical ID information.
+Next tap the “Medical ID” button in the lower left corner. 
+You should now be on a screen that displays your Medical ID information. The information you see on this screen will be the same information emergency services would see if they navigated to this screen. Remember that anyone who views your Medical ID through your lock screen will not be able to edit your information. If you feel you need to make some changes to the information being displayed here, follow the steps in the previous tutorial parts to edit your Medical ID information in your phone’s settings.
+To close this screen, tap the “Done” button, and you will be redirected to the previous screen, the emergency phone dialer screen. 
+You have reached the end of Part 4 of the Emergency Information Tutorial.
