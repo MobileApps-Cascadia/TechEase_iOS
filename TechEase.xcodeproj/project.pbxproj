@@ -45,6 +45,10 @@
 		3FEBDF9E2828ACDB005FCD03 /* CompassTutorialPart1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FEBDF9D2828ACDB005FCD03 /* CompassTutorialPart1.swift */; };
 		3FEBDFA02828ACF5005FCD03 /* CompassTutorialPart2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FEBDF9F2828ACF5005FCD03 /* CompassTutorialPart2.swift */; };
 		3FEBDFA22828AD18005FCD03 /* CompassTutorialPart3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FEBDFA12828AD18005FCD03 /* CompassTutorialPart3.swift */; };
+		3FEBDFA52828DF58005FCD03 /* CalendarTutorialPart1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FEBDFA42828DF58005FCD03 /* CalendarTutorialPart1.swift */; };
+		3FEBDFA72828DF96005FCD03 /* CalendarTutorialPart2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FEBDFA62828DF96005FCD03 /* CalendarTutorialPart2.swift */; };
+		3FEBDFA92828DFC0005FCD03 /* CalendarTutorialPart3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FEBDFA82828DFC0005FCD03 /* CalendarTutorialPart3.swift */; };
+		3FEBDFAB2828E001005FCD03 /* CalendarTutorialPart4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FEBDFAA2828E001005FCD03 /* CalendarTutorialPart4.swift */; };
 		3FEF5180263CD94E00237755 /* NotificationsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FEF517F263CD94E00237755 /* NotificationsScreen.swift */; };
 		5F0177502714ECD10006F0B5 /* VideoTutorialScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F01774F2714ECD10006F0B5 /* VideoTutorialScreen.swift */; };
 		5F0177522714ECFA0006F0B5 /* VideoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F0177512714ECFA0006F0B5 /* VideoView.swift */; };
@@ -103,6 +107,10 @@
 		3FEBDF9D2828ACDB005FCD03 /* CompassTutorialPart1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompassTutorialPart1.swift; sourceTree = "<group>"; };
 		3FEBDF9F2828ACF5005FCD03 /* CompassTutorialPart2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompassTutorialPart2.swift; sourceTree = "<group>"; };
 		3FEBDFA12828AD18005FCD03 /* CompassTutorialPart3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompassTutorialPart3.swift; sourceTree = "<group>"; };
+		3FEBDFA42828DF58005FCD03 /* CalendarTutorialPart1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarTutorialPart1.swift; sourceTree = "<group>"; };
+		3FEBDFA62828DF96005FCD03 /* CalendarTutorialPart2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarTutorialPart2.swift; sourceTree = "<group>"; };
+		3FEBDFA82828DFC0005FCD03 /* CalendarTutorialPart3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarTutorialPart3.swift; sourceTree = "<group>"; };
+		3FEBDFAA2828E001005FCD03 /* CalendarTutorialPart4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarTutorialPart4.swift; sourceTree = "<group>"; };
 		3FEF517F263CD94E00237755 /* NotificationsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsScreen.swift; sourceTree = "<group>"; };
 		5F01774F2714ECD10006F0B5 /* VideoTutorialScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoTutorialScreen.swift; sourceTree = "<group>"; };
 		5F0177512714ECFA0006F0B5 /* VideoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoView.swift; sourceTree = "<group>"; };
@@ -211,6 +219,7 @@
 		3FD1FC4F281CEE7B0022DCD3 /* Tutorials */ = {
 			isa = PBXGroup;
 			children = (
+				3FEBDFA32828DE67005FCD03 /* Calendar Tutorial Parts */,
 				3FEBDF9C2828AA95005FCD03 /* Compass Tutorial Parts */,
 				3F40159F2823968700BBA062 /* Emergency Tutorial Parts */,
 				3FD1FC50281CEE960022DCD3 /* TheCompassTutorial.swift */,
@@ -270,6 +279,17 @@
 				3FEBDFA12828AD18005FCD03 /* CompassTutorialPart3.swift */,
 			);
 			path = "Compass Tutorial Parts";
+			sourceTree = "<group>";
+		};
+		3FEBDFA32828DE67005FCD03 /* Calendar Tutorial Parts */ = {
+			isa = PBXGroup;
+			children = (
+				3FEBDFA42828DF58005FCD03 /* CalendarTutorialPart1.swift */,
+				3FEBDFA62828DF96005FCD03 /* CalendarTutorialPart2.swift */,
+				3FEBDFA82828DFC0005FCD03 /* CalendarTutorialPart3.swift */,
+				3FEBDFAA2828E001005FCD03 /* CalendarTutorialPart4.swift */,
+			);
+			path = "Calendar Tutorial Parts";
 			sourceTree = "<group>";
 		};
 		5FB46C38263D98A8008B809D /* ModelsAndCustomViews */ = {
@@ -391,6 +411,7 @@
 				3F029DB1265E01BF009BA7CC /* PhoneFeaturesTutorialsContent.swift in Sources */,
 				5FB46C40263D9A8D008B809D /* RoundedButton.swift in Sources */,
 				3F40159E28238C9500BBA062 /* CustomTutorialPartButton.swift in Sources */,
+				3FEBDFAB2828E001005FCD03 /* CalendarTutorialPart4.swift in Sources */,
 				3F4015A1282396B000BBA062 /* EmergencyTutorialPart1.swift in Sources */,
 				3F4015A5282396F800BBA062 /* EmergencyTutorialPart3.swift in Sources */,
 				5F51B5952659BF23001C97F9 /* Text_to_SpeechButton.swift in Sources */,
@@ -401,11 +422,14 @@
 				3F0F5B02262BC97B00446AD2 /* TechEaseApp.swift in Sources */,
 				5FFDE801262FA58B00ADEEDF /* TechEaseTutorialList.swift in Sources */,
 				3FD1FC4E281CECDE0022DCD3 /* FeaturedTutorialsScreen.swift in Sources */,
+				3FEBDFA52828DF58005FCD03 /* CalendarTutorialPart1.swift in Sources */,
 				5F0177522714ECFA0006F0B5 /* VideoView.swift in Sources */,
 				3F7F080E2714B59B00B192DE /* TPTest.swift in Sources */,
+				3FEBDFA92828DFC0005FCD03 /* CalendarTutorialPart3.swift in Sources */,
 				5FB46C35263CBF39008B809D /* Homepage.swift in Sources */,
 				3FAB5FB5271D117E006B0C71 /* VisionOptions.swift in Sources */,
 				3FEBDFA22828AD18005FCD03 /* CompassTutorialPart3.swift in Sources */,
+				3FEBDFA72828DF96005FCD03 /* CalendarTutorialPart2.swift in Sources */,
 				5F51B597265C0832001C97F9 /* SpeechButton.swift in Sources */,
 				3F4015A72823971500BBA062 /* EmergencyTutorialPart4.swift in Sources */,
 			);
