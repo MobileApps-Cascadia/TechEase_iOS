@@ -1,0 +1,15 @@
+The Emergency Information Tutorial
+Part 2: Initializing the Medical ID in the Settings
+Medical ID is not automatically set up on your phone, so you will first have to set it up yourself.
+To view your Medical ID, locate and tap the Settings icon to open your phone’s settings. The Settings icon looks like a gear and it has the name “Settings” below the icon.
+The Settings icon and name.
+Once the Settings is open, scroll down until you see the “Health” option. The icon next to it has a heart in a square. Now tap the “Health” option.
+On the Health page, you should see a “Medical ID” option under the section called “Medical Details.” Now tap it.
+On the Health screen, tap the “Medical ID” option under the section called “Medical Details.”
+You should now be on the Medical ID screen. This is where you can input your personal information to the fields you want to. 
+If you already have the Medical ID setup and are returning to add or edit the information, you will see a screen that shows all of your information. If this is your first time setting up the Medical ID, you will be presented with a blue button labeled “Create Medical ID.” 
+Once the blue “Create Medical ID” button is tapped, you will be presented with a few screens to input your information and to confirm the creation of the Medical ID. For the purpose of this tutorial, we will just initialize the Medical ID without adding any extra information for now. 
+Tap the “Next” button at the top right corner of the screen. You will then be given a preview of your information. Tap the “Done” button at the top right corner. (You can always go back to the previous screens by tapping the “Cancel” or “Back” buttons in the top left corner.) Once you tap the “Done” button, the Medical ID screen will display all your information. Do note that there may be many empty fields for now. 
+The Medical ID screen. Any information you add later will be displayed here. In this screenshot, the user has already added their primary language and emergency contacts.
+Now that your Medical ID has been initialized, see the next tutorial, “Part 3: Adding to and editing your Medical ID information,” to learn about adding your personal information.
+You have reached the end of Part 2 of the Emergency Information Tutorial.

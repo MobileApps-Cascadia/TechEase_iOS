@@ -1,0 +1,14 @@
+The Calendar Tutorial
+Part 1: Opening the Calendar app and switching views
+The Calendar app is an app created by Apple that mimics the function and appearance of an actual calendar. This app is helpful for keeping track of appointments and viewing the months and years at a glance.
+To open the Calendar app, first locate the Calendar app on your phone. It should already be installed. The Calendar app’s icon has a number that changes to reflect the current day and the app has the name “Calendar” below the icon.
+The Calendar app’s icon and name.
+Now tap the icon to open the app. 
+Once the Calendar app is open, it may present you with the screen you last closed the app on. This might be a daily, monthly, or yearly view.
+In a yearly view, you will see all twelve months, with the current month shown in red text and the current day circled in red. In the following screenshot of the year 2022, the current month is April and the current day is April 13.
+The yearly calendar view.
+To navigate to a monthly view, tap the specific month you want to view.
+In a monthly view, the current day is circled in red. Events are represented by a gray dot under the day of the month that the event takes place on. You may notice you already have some events added to your calendar. These events are added by Apple for any major holidays and cannot be removed from your calendar. To navigate back to a yearly view, tap the “<” button in the top left corner. To navigate to a specific day, tap the day’s number on the calendar.
+In a daily view, the calendar will show you a list of events and holidays near the current or specified date. To navigate back to a monthly view, tap the “<” button in the top left corner.
+The next tutorial, “Part 2: Adding a new event,” will explore events in more detail.
+You have reached the end of Part 1 of the Calendar Tutorial.

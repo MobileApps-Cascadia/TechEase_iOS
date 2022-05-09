@@ -1,0 +1,7 @@
+The Compass Tutorial
+Part 2: Locking your current direction
+The Compass app allows you to lock your current direction. This is helpful if you are moving in a specific direction (such as 10 degrees North) and want to stay on track, such as when using a paper map. 
+To lock your current direction, tap anywhere within the compass face. Now try moving your phone around to change the direction. Notice how a thick red band appears in the inner circle of the compass. This red band is to show you how far off you are from your locked direction. Your locked direction is the bolded degree number and your current direction is the long white line. Your current direction is also shown beneath the compass face.
+The red band shows you how far off you are from your locked direction. 60 degrees is the locked direction and 303 degrees is the current direction.
+To unlock your current direction, tap anywhere within the compass face and the red band will disappear.
+You have reached the end of Part 2 of the Compass Tutorial.
