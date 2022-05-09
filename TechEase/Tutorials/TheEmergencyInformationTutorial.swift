@@ -62,7 +62,7 @@ struct TheEmergencyInformationTutorial: View {
                     
                     HStack {
                         
-                        Text("Part 1: Understanding \nthe Medical ID")
+                        Text("Part 1: Understanding the Medical ID")
                             .font(.title3)
                             .foregroundColor(Color("Black"))
                             .padding(.leading)
@@ -78,7 +78,7 @@ struct TheEmergencyInformationTutorial: View {
                     
                     HStack {
                         
-                        Text("Part 2: Initializing \nthe Medical ID")
+                        Text("Part 2: Initializing the Medical ID in the Settings")
                             .font(.title3)
                             .foregroundColor(Color("Black"))
                             .padding(.leading)
@@ -94,7 +94,7 @@ struct TheEmergencyInformationTutorial: View {
                     
                     HStack {
                         
-                        Text("Part 3: Adding/editing \nthe Medical ID")
+                        Text("Part 3: Adding to and editing your Medical ID information")
                             .font(.title3)
                             .foregroundColor(Color("Black"))
                             .padding(.leading)
@@ -110,7 +110,7 @@ struct TheEmergencyInformationTutorial: View {
                     
                     HStack {
                         
-                        Text("Part 4: Accessing \nthe Medical ID")
+                        Text("Part 4: Accessing the Medical ID from the lock screen")
                             .font(.title3)
                             .foregroundColor(Color("Black"))
                             .padding(.leading)
