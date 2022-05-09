@@ -42,6 +42,9 @@
 		3FEBDF992828A29C005FCD03 /* EmergencyInformationTutorialPart1.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3FEBDF952828A29C005FCD03 /* EmergencyInformationTutorialPart1.txt */; };
 		3FEBDF9A2828A29C005FCD03 /* EmergencyInformationTutorialPart3.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3FEBDF962828A29C005FCD03 /* EmergencyInformationTutorialPart3.txt */; };
 		3FEBDF9B2828A29C005FCD03 /* EmergencyInformationTutorialPart4.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3FEBDF972828A29C005FCD03 /* EmergencyInformationTutorialPart4.txt */; };
+		3FEBDF9E2828ACDB005FCD03 /* CompassTutorialPart1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FEBDF9D2828ACDB005FCD03 /* CompassTutorialPart1.swift */; };
+		3FEBDFA02828ACF5005FCD03 /* CompassTutorialPart2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FEBDF9F2828ACF5005FCD03 /* CompassTutorialPart2.swift */; };
+		3FEBDFA22828AD18005FCD03 /* CompassTutorialPart3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FEBDFA12828AD18005FCD03 /* CompassTutorialPart3.swift */; };
 		3FEF5180263CD94E00237755 /* NotificationsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FEF517F263CD94E00237755 /* NotificationsScreen.swift */; };
 		5F0177502714ECD10006F0B5 /* VideoTutorialScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F01774F2714ECD10006F0B5 /* VideoTutorialScreen.swift */; };
 		5F0177522714ECFA0006F0B5 /* VideoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F0177512714ECFA0006F0B5 /* VideoView.swift */; };
@@ -97,6 +100,9 @@
 		3FEBDF952828A29C005FCD03 /* EmergencyInformationTutorialPart1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = EmergencyInformationTutorialPart1.txt; sourceTree = "<group>"; };
 		3FEBDF962828A29C005FCD03 /* EmergencyInformationTutorialPart3.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = EmergencyInformationTutorialPart3.txt; sourceTree = "<group>"; };
 		3FEBDF972828A29C005FCD03 /* EmergencyInformationTutorialPart4.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = EmergencyInformationTutorialPart4.txt; sourceTree = "<group>"; };
+		3FEBDF9D2828ACDB005FCD03 /* CompassTutorialPart1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompassTutorialPart1.swift; sourceTree = "<group>"; };
+		3FEBDF9F2828ACF5005FCD03 /* CompassTutorialPart2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompassTutorialPart2.swift; sourceTree = "<group>"; };
+		3FEBDFA12828AD18005FCD03 /* CompassTutorialPart3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompassTutorialPart3.swift; sourceTree = "<group>"; };
 		3FEF517F263CD94E00237755 /* NotificationsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsScreen.swift; sourceTree = "<group>"; };
 		5F01774F2714ECD10006F0B5 /* VideoTutorialScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoTutorialScreen.swift; sourceTree = "<group>"; };
 		5F0177512714ECFA0006F0B5 /* VideoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoView.swift; sourceTree = "<group>"; };
@@ -205,6 +211,7 @@
 		3FD1FC4F281CEE7B0022DCD3 /* Tutorials */ = {
 			isa = PBXGroup;
 			children = (
+				3FEBDF9C2828AA95005FCD03 /* Compass Tutorial Parts */,
 				3F40159F2823968700BBA062 /* Emergency Tutorial Parts */,
 				3FD1FC50281CEE960022DCD3 /* TheCompassTutorial.swift */,
 				3FD1FC52281CEEB90022DCD3 /* TheCalendarTutorial.swift */,
@@ -253,6 +260,16 @@
 				3FEBDF972828A29C005FCD03 /* EmergencyInformationTutorialPart4.txt */,
 			);
 			path = "Emergency Information Tutorial";
+			sourceTree = "<group>";
+		};
+		3FEBDF9C2828AA95005FCD03 /* Compass Tutorial Parts */ = {
+			isa = PBXGroup;
+			children = (
+				3FEBDF9D2828ACDB005FCD03 /* CompassTutorialPart1.swift */,
+				3FEBDF9F2828ACF5005FCD03 /* CompassTutorialPart2.swift */,
+				3FEBDFA12828AD18005FCD03 /* CompassTutorialPart3.swift */,
+			);
+			path = "Compass Tutorial Parts";
 			sourceTree = "<group>";
 		};
 		5FB46C38263D98A8008B809D /* ModelsAndCustomViews */ = {
@@ -360,6 +377,7 @@
 				3F0F5B04262BC97B00446AD2 /* ContentView.swift in Sources */,
 				3F6D5ECD2630C14600B6C7BB /* HelpScreen.swift in Sources */,
 				5FB46C3A263D98FF008B809D /* TutorialModel.swift in Sources */,
+				3FEBDFA02828ACF5005FCD03 /* CompassTutorialPart2.swift in Sources */,
 				5FB46C37263D9851008B809D /* DetailTutorial.swift in Sources */,
 				3FD1FC53281CEEB90022DCD3 /* TheCalendarTutorial.swift in Sources */,
 				5F0177502714ECD10006F0B5 /* VideoTutorialScreen.swift in Sources */,
@@ -368,6 +386,7 @@
 				3FD1FC51281CEE960022DCD3 /* TheCompassTutorial.swift in Sources */,
 				5FFDE814262FAFF200ADEEDF /* Accessibility.swift in Sources */,
 				3F029DB5265E039F009BA7CC /* InternetTutorialsContent.swift in Sources */,
+				3FEBDF9E2828ACDB005FCD03 /* CompassTutorialPart1.swift in Sources */,
 				3FD1FC55281CEED70022DCD3 /* TheEmergencyInformationTutorial.swift in Sources */,
 				3F029DB1265E01BF009BA7CC /* PhoneFeaturesTutorialsContent.swift in Sources */,
 				5FB46C40263D9A8D008B809D /* RoundedButton.swift in Sources */,
@@ -386,6 +405,7 @@
 				3F7F080E2714B59B00B192DE /* TPTest.swift in Sources */,
 				5FB46C35263CBF39008B809D /* Homepage.swift in Sources */,
 				3FAB5FB5271D117E006B0C71 /* VisionOptions.swift in Sources */,
+				3FEBDFA22828AD18005FCD03 /* CompassTutorialPart3.swift in Sources */,
 				5F51B597265C0832001C97F9 /* SpeechButton.swift in Sources */,
 				3F4015A72823971500BBA062 /* EmergencyTutorialPart4.swift in Sources */,
 			);
