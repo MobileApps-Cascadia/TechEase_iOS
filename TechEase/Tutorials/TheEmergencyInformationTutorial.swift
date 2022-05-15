@@ -58,6 +58,12 @@ struct TheEmergencyInformationTutorial: View {
                     }
                     .isDetailLink(false)
                     
+                    NavigationLink(
+                        destination: EmergencyVideoTutorial1(), tag: 5, selection: $action){
+                        EmptyView()
+                    }
+                    .isDetailLink(false)
+                    
                     // Arica: Will continue to refine this design later.
                     
                     HStack {
@@ -123,6 +129,22 @@ struct TheEmergencyInformationTutorial: View {
                             }
                             .padding()
                     }
+                    
+                    HStack {
+                        
+                        Text("How to create your Medical ID")
+                            .font(.title3)
+                            .foregroundColor(Color("Black"))
+                            .padding(.leading)
+                        
+                        Spacer()
+                        
+                        CustomTutorialPartButton(icon: "play.rectangle", label: "Watch")
+                            .onTapGesture {
+                                self.action = 5
+                            }
+                            .padding()
+                    }
                 }
                 
                 Spacer()
@@ -148,7 +170,7 @@ struct TheEmergencyInformationTutorial: View {
                                 .foregroundColor(Color("Black"))
                                 .multilineTextAlignment(.leading)
                             
-                            NavigationLink(destination: HelpScreen(), tag: 5, selection: $action) {  EmptyView()
+                            NavigationLink(destination: HelpScreen(), tag: 6, selection: $action) {  EmptyView()
                             }
                             .isDetailLink(false)
                         }
@@ -156,7 +178,7 @@ struct TheEmergencyInformationTutorial: View {
                         
                         Spacer()
                         
-                        Button(action: {self.action = 5}, label: {
+                        Button(action: {self.action = 6}, label: {
                             
                             VStack {
                                 Image(systemName: "questionmark")

@@ -1,13 +1,13 @@
 //
-//  CompassVideoTutorial1.swift
+//  EmergencyVideoTutorial1.swift
 //  TechEase
 //
-//  Created by Arica Conrad on 5/9/22.
+//  Created by Arica Conrad on 5/14/22.
 //
 
 import SwiftUI
 
-struct CompassVideoTutorial1: View {
+struct EmergencyVideoTutorial1: View {
     
     @EnvironmentObject var appState: AppState
     @State var action: Int?
@@ -22,7 +22,7 @@ struct CompassVideoTutorial1: View {
             VStack {
                 
                 // Arica: The video tutorial heading.
-                Text("How to use the Compass app")
+                Text("How to create your Medical ID")
                     .padding(.top, 30)
                     .font(.title)
                     .foregroundColor(Color("DarkBlue"))
@@ -30,7 +30,7 @@ struct CompassVideoTutorial1: View {
                     .fixedSize(horizontal: false, vertical: true)
                 
                 // Arica: Instructional text.
-                Text("Tap the video below to start watching a tutorial about how to use the Compass app. To exit full-screen mode, tap the video and then tap the \"X\" button in the top left corner.")
+                Text("Tap the video below to start watching a tutorial about how to create your Medical ID. To exit full-screen mode, tap the video and then tap the \"X\" button in the top left corner.")
                     .font(.title3)
                     .foregroundColor(Color("Black"))
                     .multilineTextAlignment(.leading)
@@ -38,7 +38,7 @@ struct CompassVideoTutorial1: View {
                     .padding(.top, 20)
                     .padding(.bottom, 10)
                 
-                VideoView(videoId: "X16RfRi9L4Q")
+                VideoView(videoId: "F3XIkl75Els")
                     .frame(minHeight: 0, maxHeight: UIScreen.main.bounds.height * 0.3)
                     .border(Color("DarkBlue"), width: 5)
                     .cornerRadius(10)
@@ -94,13 +94,13 @@ struct CompassVideoTutorial1: View {
                 .background(RoundedRectangle(cornerRadius: 0).stroke(Color("LightGray"), lineWidth: 4).background(Color("White")))
             }
             // Arica: Top navigation bar.
-            // Arica: If more than one video gets added to show how to use the Compass app, then this navigation title should be changed to "Compass Video 1." Since there is currently only one video, though, the title can stay as "Compass Video."
-            .navigationBarTitle("Compass Video", displayMode: .inline)
+            // Arica: If more than one video gets added to show how to use the Medical ID, then this navigation title should be changed to "Emergency Video 1." Since there is currently only one video, though, the title can stay as "Emergency Video."
+            .navigationBarTitle("Emergency Video", displayMode: .inline)
             .navigationBarItems(trailing: Button(action: {
                 self.appState.moveToDashboard = true
             }) {
                 
-                Text_to_SpeechButton(speech: "Tap the video below to start watching a tutorial about how to use the Compass app. To exit full-screen mode, tap the video and then tap the X button in the top left corner.")
+                Text_to_SpeechButton(speech: "Tap the video below to start watching a tutorial about how to create your Medical ID. To exit full-screen mode, tap the video and then tap the X button in the top left corner.")
                     .padding(.trailing, 7.0)
                 
                 VStack {
@@ -121,8 +121,8 @@ struct CompassVideoTutorial1: View {
     }
 }
 
-struct CompassVideoTutorial1_Previews: PreviewProvider {
+struct EmergencyVideoTutorial1_Previews: PreviewProvider {
     static var previews: some View {
-        CompassVideoTutorial1()
+        EmergencyVideoTutorial1()
     }
 }

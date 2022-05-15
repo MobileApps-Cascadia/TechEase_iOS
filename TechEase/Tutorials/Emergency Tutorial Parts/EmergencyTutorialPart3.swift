@@ -276,7 +276,7 @@ struct EmergencyTutorialPart3: View {
             }
         }
         // Arica: Top navigation bar.
-        .navigationBarTitle("Emergency Information", displayMode: .inline)
+        .navigationBarTitle("Emergency Part 3", displayMode: .inline)
         .navigationBarItems(trailing: Button(action: {
             self.appState.moveToDashboard = true
         }) {
