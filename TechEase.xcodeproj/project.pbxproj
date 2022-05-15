@@ -15,6 +15,7 @@
 		3F0F5B04262BC97B00446AD2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0F5B03262BC97B00446AD2 /* ContentView.swift */; };
 		3F0F5B06262BC97C00446AD2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F0F5B05262BC97C00446AD2 /* Assets.xcassets */; };
 		3F0F5B09262BC97C00446AD2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F0F5B08262BC97C00446AD2 /* Preview Assets.xcassets */; };
+		3F14239028308AEE00A60451 /* EmergencyVideoTutorial1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F14238F28308AEE00A60451 /* EmergencyVideoTutorial1.swift */; };
 		3F40159E28238C9500BBA062 /* CustomTutorialPartButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F40159D28238C9500BBA062 /* CustomTutorialPartButton.swift */; };
 		3F4015A1282396B000BBA062 /* EmergencyTutorialPart1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F4015A0282396B000BBA062 /* EmergencyTutorialPart1.swift */; };
 		3F4015A3282396D200BBA062 /* EmergencyTutorialPart2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F4015A2282396D200BBA062 /* EmergencyTutorialPart2.swift */; };
@@ -78,6 +79,7 @@
 		3F0F5B05262BC97C00446AD2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3F0F5B08262BC97C00446AD2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3F0F5B0A262BC97C00446AD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F14238F28308AEE00A60451 /* EmergencyVideoTutorial1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmergencyVideoTutorial1.swift; sourceTree = "<group>"; };
 		3F40159D28238C9500BBA062 /* CustomTutorialPartButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTutorialPartButton.swift; sourceTree = "<group>"; };
 		3F4015A0282396B000BBA062 /* EmergencyTutorialPart1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmergencyTutorialPart1.swift; sourceTree = "<group>"; };
 		3F4015A2282396D200BBA062 /* EmergencyTutorialPart2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmergencyTutorialPart2.swift; sourceTree = "<group>"; };
@@ -214,6 +216,7 @@
 				3F4015A2282396D200BBA062 /* EmergencyTutorialPart2.swift */,
 				3F4015A4282396F800BBA062 /* EmergencyTutorialPart3.swift */,
 				3F4015A62823971500BBA062 /* EmergencyTutorialPart4.swift */,
+				3F14238F28308AEE00A60451 /* EmergencyVideoTutorial1.swift */,
 			);
 			path = "Emergency Tutorial Parts";
 			sourceTree = "<group>";
@@ -432,6 +435,7 @@
 				3FEBDFA92828DFC0005FCD03 /* CalendarTutorialPart3.swift in Sources */,
 				5FB46C35263CBF39008B809D /* Homepage.swift in Sources */,
 				3FAB5FB5271D117E006B0C71 /* VisionOptions.swift in Sources */,
+				3F14239028308AEE00A60451 /* EmergencyVideoTutorial1.swift in Sources */,
 				3FEBDFA22828AD18005FCD03 /* CompassTutorialPart3.swift in Sources */,
 				3FEBDFA72828DF96005FCD03 /* CalendarTutorialPart2.swift in Sources */,
 				5F51B597265C0832001C97F9 /* SpeechButton.swift in Sources */,
