@@ -267,7 +267,7 @@ struct CompassTutorialPart1: View {
             }
         }
         // Arica: Top navigation bar.
-        .navigationBarTitle("Compass", displayMode: .inline)
+        .navigationBarTitle("Compass Part 1", displayMode: .inline)
         .navigationBarItems(trailing: Button(action: {
             self.appState.moveToDashboard = true
         }) {

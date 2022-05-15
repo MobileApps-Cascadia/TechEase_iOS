@@ -52,6 +52,12 @@ struct TheCompassTutorial: View {
                     }
                     .isDetailLink(false)
                     
+                    NavigationLink(
+                        destination: CompassVideoTutorial1(), tag: 4, selection: $action){
+                        EmptyView()
+                    }
+                    .isDetailLink(false)
+                    
                     // Arica: Will continue to refine this design later.
                     
                     HStack {
@@ -63,7 +69,7 @@ struct TheCompassTutorial: View {
                         
                         Spacer()
                         
-                        CustomTutorialPartButton(icon: "book", label: "Start Reading")
+                        CustomTutorialPartButton(icon: "book", label: "Read")
                             .onTapGesture {
                                 self.action = 1
                             }
@@ -79,7 +85,7 @@ struct TheCompassTutorial: View {
                         
                         Spacer()
                         
-                        CustomTutorialPartButton(icon: "book", label: "Start Reading")
+                        CustomTutorialPartButton(icon: "book", label: "Read")
                             .onTapGesture {
                                 self.action = 2
                             }
@@ -95,9 +101,25 @@ struct TheCompassTutorial: View {
                         
                         Spacer()
                         
-                        CustomTutorialPartButton(icon: "book", label: "Start Reading")
+                        CustomTutorialPartButton(icon: "book", label: "Read")
                             .onTapGesture {
                                 self.action = 3
+                            }
+                            .padding()
+                    }
+                    
+                    HStack {
+                        
+                        Text("How to use the Compass app")
+                            .font(.title3)
+                            .foregroundColor(Color("Black"))
+                            .padding(.leading)
+                        
+                        Spacer()
+                        
+                        CustomTutorialPartButton(icon: "play.rectangle", label: "Watch")
+                            .onTapGesture {
+                                self.action = 4
                             }
                             .padding()
                     }
@@ -126,7 +148,7 @@ struct TheCompassTutorial: View {
                                 .foregroundColor(Color("Black"))
                                 .multilineTextAlignment(.leading)
                             
-                            NavigationLink(destination: HelpScreen(), tag: 4, selection: $action) {  EmptyView()
+                            NavigationLink(destination: HelpScreen(), tag: 5, selection: $action) {  EmptyView()
                             }
                             .isDetailLink(false)
                         }
@@ -134,7 +156,7 @@ struct TheCompassTutorial: View {
                         
                         Spacer()
                         
-                        Button(action: {self.action = 4}, label: {
+                        Button(action: {self.action = 5}, label: {
                             
                             VStack {
                                 Image(systemName: "questionmark")
