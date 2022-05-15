@@ -34,29 +34,45 @@ struct TheCalendarTutorial: View {
                 
                 ScrollView {
                     
-                    NavigationLink(
-                        destination: CalendarTutorialPart1(), tag: 1, selection: $action){
-                        EmptyView()
+                    // Arica: I added a Group here because there were more than 10 views when counting up all the NavigationLinks and HStacks. If more videos are added, the HStacks may need to be grouped together too.
+                    Group {
+                        
+                        NavigationLink(
+                            destination: CalendarTutorialPart1(), tag: 1, selection: $action){
+                            EmptyView()
+                        }
+                        .isDetailLink(false)
+                        
+                        NavigationLink(
+                            destination: CalendarTutorialPart2(), tag: 2, selection: $action){
+                            EmptyView()
+                        }
+                        .isDetailLink(false)
+                        
+                        NavigationLink(
+                            destination: CalendarTutorialPart3(), tag: 3, selection: $action){
+                            EmptyView()
+                        }
+                        .isDetailLink(false)
+                        
+                        NavigationLink(
+                            destination: CalendarTutorialPart4(), tag: 4, selection: $action){
+                            EmptyView()
+                        }
+                        .isDetailLink(false)
+                        
+                        NavigationLink(
+                            destination: CalendarVideoTutorial1(), tag: 5, selection: $action){
+                            EmptyView()
+                        }
+                        .isDetailLink(false)
+                        
+                        NavigationLink(
+                            destination: CalendarVideoTutorial2(), tag: 6, selection: $action){
+                            EmptyView()
+                        }
+                        .isDetailLink(false)
                     }
-                    .isDetailLink(false)
-                    
-                    NavigationLink(
-                        destination: CalendarTutorialPart2(), tag: 2, selection: $action){
-                        EmptyView()
-                    }
-                    .isDetailLink(false)
-                    
-                    NavigationLink(
-                        destination: CalendarTutorialPart3(), tag: 3, selection: $action){
-                        EmptyView()
-                    }
-                    .isDetailLink(false)
-                    
-                    NavigationLink(
-                        destination: CalendarTutorialPart4(), tag: 4, selection: $action){
-                        EmptyView()
-                    }
-                    .isDetailLink(false)
                     
                     // Arica: Will continue to refine this design later.
                     
@@ -123,6 +139,38 @@ struct TheCalendarTutorial: View {
                             }
                             .padding()
                     }
+                    
+                    HStack {
+                        
+                        Text("Video 1: How to use the Calendar app")
+                            .font(.title3)
+                            .foregroundColor(Color("Black"))
+                            .padding(.leading)
+                        
+                        Spacer()
+                        
+                        CustomTutorialPartButton(icon: "play.rectangle", label: "Watch")
+                            .onTapGesture {
+                                self.action = 5
+                            }
+                            .padding()
+                    }
+                    
+                    HStack {
+                        
+                        Text("Video 2: Using the Calendar app on your iPad")
+                            .font(.title3)
+                            .foregroundColor(Color("Black"))
+                            .padding(.leading)
+                        
+                        Spacer()
+                        
+                        CustomTutorialPartButton(icon: "play.rectangle", label: "Watch")
+                            .onTapGesture {
+                                self.action = 6
+                            }
+                            .padding()
+                    }
                 }
                 
                 Spacer()
@@ -148,7 +196,7 @@ struct TheCalendarTutorial: View {
                                 .foregroundColor(Color("Black"))
                                 .multilineTextAlignment(.leading)
                             
-                            NavigationLink(destination: HelpScreen(), tag: 5, selection: $action) {  EmptyView()
+                            NavigationLink(destination: HelpScreen(), tag: 7, selection: $action) {  EmptyView()
                             }
                             .isDetailLink(false)
                         }
@@ -156,7 +204,7 @@ struct TheCalendarTutorial: View {
                         
                         Spacer()
                         
-                        Button(action: {self.action = 5}, label: {
+                        Button(action: {self.action = 7}, label: {
                             
                             VStack {
                                 Image(systemName: "questionmark")

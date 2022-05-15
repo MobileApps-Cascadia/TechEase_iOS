@@ -110,7 +110,7 @@ struct TheCompassTutorial: View {
                     
                     HStack {
                         
-                        Text("How to use the Compass app")
+                        Text("Video: How to use the Compass app")
                             .font(.title3)
                             .foregroundColor(Color("Black"))
                             .padding(.leading)

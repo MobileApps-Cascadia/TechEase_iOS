@@ -132,7 +132,7 @@ struct TheEmergencyInformationTutorial: View {
                     
                     HStack {
                         
-                        Text("How to create your Medical ID")
+                        Text("Video: How to create your Medical ID")
                             .font(.title3)
                             .foregroundColor(Color("Black"))
                             .padding(.leading)
