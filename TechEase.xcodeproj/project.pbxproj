@@ -16,6 +16,8 @@
 		3F0F5B06262BC97C00446AD2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F0F5B05262BC97C00446AD2 /* Assets.xcassets */; };
 		3F0F5B09262BC97C00446AD2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F0F5B08262BC97C00446AD2 /* Preview Assets.xcassets */; };
 		3F14239028308AEE00A60451 /* EmergencyVideoTutorial1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F14238F28308AEE00A60451 /* EmergencyVideoTutorial1.swift */; };
+		3F142392283097CD00A60451 /* CalendarVideoTutorial1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F142391283097CD00A60451 /* CalendarVideoTutorial1.swift */; };
+		3F142394283097EC00A60451 /* CalendarVideoTutorial2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F142393283097EC00A60451 /* CalendarVideoTutorial2.swift */; };
 		3F40159E28238C9500BBA062 /* CustomTutorialPartButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F40159D28238C9500BBA062 /* CustomTutorialPartButton.swift */; };
 		3F4015A1282396B000BBA062 /* EmergencyTutorialPart1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F4015A0282396B000BBA062 /* EmergencyTutorialPart1.swift */; };
 		3F4015A3282396D200BBA062 /* EmergencyTutorialPart2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F4015A2282396D200BBA062 /* EmergencyTutorialPart2.swift */; };
@@ -80,6 +82,8 @@
 		3F0F5B08262BC97C00446AD2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3F0F5B0A262BC97C00446AD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3F14238F28308AEE00A60451 /* EmergencyVideoTutorial1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmergencyVideoTutorial1.swift; sourceTree = "<group>"; };
+		3F142391283097CD00A60451 /* CalendarVideoTutorial1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarVideoTutorial1.swift; sourceTree = "<group>"; };
+		3F142393283097EC00A60451 /* CalendarVideoTutorial2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarVideoTutorial2.swift; sourceTree = "<group>"; };
 		3F40159D28238C9500BBA062 /* CustomTutorialPartButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTutorialPartButton.swift; sourceTree = "<group>"; };
 		3F4015A0282396B000BBA062 /* EmergencyTutorialPart1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmergencyTutorialPart1.swift; sourceTree = "<group>"; };
 		3F4015A2282396D200BBA062 /* EmergencyTutorialPart2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmergencyTutorialPart2.swift; sourceTree = "<group>"; };
@@ -294,6 +298,8 @@
 				3FEBDFA62828DF96005FCD03 /* CalendarTutorialPart2.swift */,
 				3FEBDFA82828DFC0005FCD03 /* CalendarTutorialPart3.swift */,
 				3FEBDFAA2828E001005FCD03 /* CalendarTutorialPart4.swift */,
+				3F142391283097CD00A60451 /* CalendarVideoTutorial1.swift */,
+				3F142393283097EC00A60451 /* CalendarVideoTutorial2.swift */,
 			);
 			path = "Calendar Tutorial Parts";
 			sourceTree = "<group>";
@@ -424,12 +430,14 @@
 				5F51B5952659BF23001C97F9 /* Text_to_SpeechButton.swift in Sources */,
 				5FA4B4A0264DCC2800C357C3 /* OverviewScreen.swift in Sources */,
 				3F029DB7265E03B6009BA7CC /* SocialMediaTutorialsContent.swift in Sources */,
+				3F142394283097EC00A60451 /* CalendarVideoTutorial2.swift in Sources */,
 				5FB46C33263CBD4C008B809D /* CustomButton.swift in Sources */,
 				5FB46C42263DAB16008B809D /* ListOfTutorials.swift in Sources */,
 				3F0F5B02262BC97B00446AD2 /* TechEaseApp.swift in Sources */,
 				5FFDE801262FA58B00ADEEDF /* TechEaseTutorialList.swift in Sources */,
 				3FD1FC4E281CECDE0022DCD3 /* FeaturedTutorialsScreen.swift in Sources */,
 				3FEBDFA52828DF58005FCD03 /* CalendarTutorialPart1.swift in Sources */,
+				3F142392283097CD00A60451 /* CalendarVideoTutorial1.swift in Sources */,
 				5F0177522714ECFA0006F0B5 /* VideoView.swift in Sources */,
 				3F7F080E2714B59B00B192DE /* TPTest.swift in Sources */,
 				3FEBDFA92828DFC0005FCD03 /* CalendarTutorialPart3.swift in Sources */,

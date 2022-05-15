@@ -236,7 +236,7 @@ struct CalendarTutorialPart1: View {
             }
         }
         // Arica: Top navigation bar.
-        .navigationBarTitle("Calendar", displayMode: .inline)
+        .navigationBarTitle("Calendar Part 1", displayMode: .inline)
         .navigationBarItems(trailing: Button(action: {
             self.appState.moveToDashboard = true
         }) {
