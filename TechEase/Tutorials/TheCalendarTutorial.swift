@@ -85,7 +85,7 @@ struct TheCalendarTutorial: View {
                         
                         Spacer()
                         
-                        CustomTutorialPartButton(icon: "book", label: "Start Reading")
+                        CustomTutorialPartButton(icon: "book", label: "Read")
                             .onTapGesture {
                                 self.action = 1
                             }
@@ -101,7 +101,7 @@ struct TheCalendarTutorial: View {
                         
                         Spacer()
                         
-                        CustomTutorialPartButton(icon: "book", label: "Start Reading")
+                        CustomTutorialPartButton(icon: "book", label: "Read")
                             .onTapGesture {
                                 self.action = 2
                             }
@@ -117,7 +117,7 @@ struct TheCalendarTutorial: View {
                         
                         Spacer()
                         
-                        CustomTutorialPartButton(icon: "book", label: "Start Reading")
+                        CustomTutorialPartButton(icon: "book", label: "Read")
                             .onTapGesture {
                                 self.action = 3
                             }
@@ -133,7 +133,7 @@ struct TheCalendarTutorial: View {
                         
                         Spacer()
                         
-                        CustomTutorialPartButton(icon: "book", label: "Start Reading")
+                        CustomTutorialPartButton(icon: "book", label: "Read")
                             .onTapGesture {
                                 self.action = 4
                             }

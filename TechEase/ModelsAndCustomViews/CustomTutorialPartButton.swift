@@ -22,20 +22,19 @@ struct CustomTutorialPartButton: View {
                 .frame(width: 20, height: 20)
                 .foregroundColor(Color("Black"))
             
-            //Spacer()
-            //Spacer()
+            Spacer()
+            Spacer()
             
             Text(label)
                 .font(.title3)
                 .foregroundColor(Color("Black"))
             
-            //Spacer()
-            //Spacer()
-            //Spacer()
+            Spacer()
+            Spacer()
+            Spacer()
         }
         .padding()
-        .frame(minWidth: /*@START_MENU_TOKEN@*/0/*@END_MENU_TOKEN@*/, maxWidth: /*@START_MENU_TOKEN@*/.infinity/*@END_MENU_TOKEN@*/)
-        .frame(minWidth: 0, maxWidth: 400)
+        .frame(width: 150, height: 50)
         .background(RoundedRectangle(cornerRadius: 10).stroke(Color("DarkBlue"), lineWidth: 2).background(Color("LightBlue").cornerRadius(10)))
         .foregroundColor(Color("Black"))
     }
@@ -43,6 +42,6 @@ struct CustomTutorialPartButton: View {
 
 struct CustomTutorialPartButton_Previews: PreviewProvider {
     static var previews: some View {
-        CustomTutorialPartButton(icon: "book", label: "Start Reading")
+        CustomTutorialPartButton(icon: "book", label: "Read")
     }
 }
