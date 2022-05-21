@@ -22,7 +22,7 @@ struct CalendarVideoTutorial2: View {
             VStack {
                 
                 // Arica: The video tutorial heading.
-                Text("Using the Calendar app on your iPad")
+                Text("iPad Calendar app tips")
                     .padding(.top, 30)
                     .font(.title)
                     .foregroundColor(Color("DarkBlue"))
