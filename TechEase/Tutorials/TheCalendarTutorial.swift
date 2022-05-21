@@ -158,7 +158,7 @@ struct TheCalendarTutorial: View {
                     
                     HStack {
                         
-                        Text("Video 2: Using the Calendar app on your iPad")
+                        Text("Video 2: iPad Calendar app tips")
                             .font(.title3)
                             .foregroundColor(Color("Black"))
                             .padding(.leading)
